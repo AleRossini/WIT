@@ -1,0 +1,82 @@
+#advert {
+  font-family: 'Fjalla One', sans-serif;
+}
+#social {
+  background-color: #4293f8;
+  color: white;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+  font-weight: 500;
+}
+.footer {
+  background-color: #337ad2;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom:0;
+  color: white;
+}
+.btn-outline-light {
+    border-color: transparent;
+}
+#facebook:hover, #facebook:visited, #facebook:active {
+  background-color: #4267b2;
+  color: white;
+}
+#instagram:hover, #instagram:visited, #instagram:active {
+  background-image: linear-gradient(to bottom left, #B136C4, #F09000);
+  color: white;
+}
+#youtube:hover, #youtube:active {
+  background-color: #ff0000;
+  color: white;
+}
+
+/* BACKGROUND TEXTURE */
+
+.arrow-right, .arrow-corner-left, .arrow-up, .arrow-up-two, .arrow-corner-right, .arrow-up-three {
+  width: 0;
+  height: 0;
+  position: fixed;
+}
+.arrow-right {
+  border-top: 200px solid transparent;
+  border-bottom: 200px solid transparent;
+  border-left: 300px solid #f4c2bd;
+  bottom: 50%;
+}
+.arrow-up, .arrow-corner-left, .arrow-up-two, .arrow-corner-right, .arrow-up-three {
+  bottom: 0;
+}
+.arrow-up {
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid #fbfbfb;
+  left: 50px;
+  opacity:0.6;
+}
+.arrow-corner-left {
+  border-top: 140px solid transparent;
+  border-right: 140px solid transparent;
+  border-bottom: 140px solid #57c0c0;
+  opacity: 0.7;
+}
+.arrow-corner-right {
+  border-top: 160px solid transparent;
+  border-left: 160px solid transparent;
+  border-bottom:160px solid #fbfbfb;
+  right:0;
+  opacity: 0.6;
+}
+.arrow-up-two {
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 80px solid #ea7875;
+  right: -60px;
+  opacity:0.6;
+}
+.arrow-up-three {
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 80px solid #5da2f9;
+  right: 150px;
+  opacity:0.5;
+}
